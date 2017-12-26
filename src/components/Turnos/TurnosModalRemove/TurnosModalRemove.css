@@ -1,0 +1,16 @@
+.boton_rojo {
+  background-color: #f40000;
+  cursor: pointer;
+}
+
+.modalContent {
+  width: 600px;
+}
+
+.boton_blanco {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  cursor: pointer;
+}
+

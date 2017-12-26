@@ -1,0 +1,21 @@
+.success {
+  color: #5cb85c;
+  border-color: #5cb85c;
+  background-color: #ebfdf1;
+  align-items: center;
+}
+
+.success span {
+  color: #1b5e20;
+}
+
+.success button {
+  width: 200px;
+}
+
+.warning {
+  color: #363636;
+  background-color: #f3f3f3;
+  border-color: #ef6d11;
+  align-items: center;
+}

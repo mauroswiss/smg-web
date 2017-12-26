@@ -1,0 +1,59 @@
+@import '../variables.css';
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.root {
+  padding-top: 20px;
+}
+
+.root .col:first-child h3 {
+  margin: 0;
+}
+
+.root .col:nth-child(4) > h3 {
+  display: none;
+  visibility: hidden;
+}
+
+.root .col h3 {
+  text-transform: Uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 20px 0 0;
+}
+
+.col:nth-child(2),
+.col:nth-child(3),
+.col:nth-child(4) {
+  text-align: left;
+  border-left: 1px solid #ccc;
+  padding-left: 30px;
+  height: 280px;
+}
+
+.col:nth-child(2) li a.link,
+.col:nth-child(3) li a.link,
+.col:nth-child(4) li a.link {
+  text-align: left;
+}
+
+.root ul li:nth-child(2n+1) {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a.link:link,
+a.link:visited,
+a.link:active {
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+a.link:hover,
+a.link:visited:hover {
+  color: #000;
+  text-decoration: none;
+}

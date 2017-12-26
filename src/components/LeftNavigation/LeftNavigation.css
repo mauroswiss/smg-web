@@ -1,0 +1,9 @@
+.navigationIz {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 150px;
+  left: 0;
+  list-style: none;
+  z-index: 5;
+}

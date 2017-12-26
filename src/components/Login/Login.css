@@ -1,0 +1,212 @@
+.welcome {
+  margin-left: auto;
+  margin-right: 0;
+  float: right;
+  position: relative;
+  padding: 10px 0;
+}
+
+.welcome button {
+  border: 0 none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 14px;
+  padding-right: 16px;
+  position: relative;
+}
+
+.welcome button:focus {
+  outline: 0;
+}
+
+.welcome button.active {
+  color: #fff;
+  background-color: #080808;
+  border: 0 none;
+}
+
+.welcome button i.user_icon {
+  margin-right: 5px;
+}
+
+.welcome button i.down_arrow {
+  color: #f40000;
+  position: absolute;
+  right: 1px;
+  top: 8px;
+  line-height: 10px;
+}
+
+.listaAccionesUser {
+  max-height: 482px;
+  overflow: hidden;
+  font-size: 11px;
+  font-family: 'Open Sans', sans-serif;
+  -moz-opacity: 100;
+  opacity: 100;
+  filter: alpha(opacity=100);
+  padding: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: block;
+}
+
+.listaAccionesUser li a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.listaAccionesUser li a:hover {
+  background-color: #ddd;
+}
+
+.loginDialogArrow {
+  background-color: #222;
+  position: absolute;
+  top: 62px;
+  right: 110px;
+  width: 25px;
+  height: 25px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.loginWrap,
+.loginWrapSmall {
+  position: relative;
+  text-align: right;
+  float: right;
+  padding: 14px;
+  max-width: 250px;
+  width: 100%;
+}
+
+.loginWrap button {
+  font-size: 12px;
+  line-height: 1.5;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.loginWrapSmall a {
+  margin: 0 5px;
+  border: 1px solid #333;
+  height: 35px;
+  width: 40px;
+  padding: 2px 0;
+  font-size: 16px;
+  font-style: italic;
+  background-color: transparent;
+  background-image: none;
+  border-radius: 4px;
+  color: #eee;
+  outline: none;
+}
+
+.loginWrapSmall a:hover {
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+.loginWrapSmall a i {
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.loginDialog {
+  padding-top: 15px;
+  position: absolute;
+  top: 70px;
+  color: #fff;
+  left: 0;
+  background-color: #222;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 4px 10px #333;
+  box-shadow: 3px 4px 10px #333;
+  width: 250px;
+  text-align: center;
+}
+
+.loginDialog .loginTooltipTipoDoc {
+  width: 100%;
+}
+
+.loginDialog input,
+.loginDialog select {
+  height: 30px;
+  padding: 0 10px;
+  font-size: 12px;
+  border-radius: 0;
+  outline: none;
+  border: none;
+}
+
+.loginDialog a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 12px !important;
+}
+
+.loginDialog .row {
+  margin-bottom: 0.5rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.loginDialog .row .col {
+  padding: 0 2px;
+}
+
+.loginDialog button {
+  width: 100%;
+}
+
+.boton_rojo {
+  background-color: #fe0000;
+  outline: none;
+}
+
+.boton_rojo:hover {
+  background-color: #fe0000;
+  text-decoration: underline;
+}
+
+.btn_ing {
+  background-color: #fe0000;
+  color: #fff;
+  height: 25px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 2px;
+  border: 0;
+}
+
+.btn_reg {
+  background-color: #838383;
+  color: #fff;
+  height: 25px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 2px;
+  border: 0;
+  margin-left: 5px !important;
+}

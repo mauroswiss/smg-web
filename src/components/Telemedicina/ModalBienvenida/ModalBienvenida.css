@@ -1,0 +1,24 @@
+.boton_rojo {
+  background-color: #eb0000;
+  cursor: pointer;
+}
+
+.modalContent {
+  text-align: center;
+}
+
+.modalContent i {
+  color: #eb0000;
+}
+
+.modalFooter span {
+  color: #eb0000;
+}
+
+.modalFooter img {
+  cursor: pointer;
+}
+
+.modalHeader {
+  border-bottom: 0;
+}

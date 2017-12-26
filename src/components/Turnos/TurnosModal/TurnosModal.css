@@ -1,0 +1,76 @@
+.divTable {
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.tableModal {
+  width: 100%;
+}
+
+.columnTitle {
+  align-content: left;
+  width: 50%;
+  vertical-align: middle;
+  display: inline;
+}
+
+.spanTitle {
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Helvetica', 'Jamrul', 'sans-serif';
+  color: #000;
+  font-size: 20px;
+}
+
+.columnImage {
+  align-content: right;
+  width: 50%;
+  display: inline;
+  padding-left: 240px;
+}
+
+.spanLevel {
+  font-weight: bold; 
+  font-family: 'Trebuchet MS', 'Helvetica', 'Jamrul', 'sans-serif';
+  color: #7b7b7b;
+  font-size: 15px;
+}
+
+.spanDate {
+  font-family: 'Trebuchet MS', 'Helvetica', 'Jamrul', 'sans-serif';
+  color: #7b7b7b;
+  font-size: 14px;
+}
+
+.spanAutorizacion {
+  font-weight: bold; 
+  font-family: 'Trebuchet MS', 'Helvetica', 'Jamrul', 'sans-serif';
+  color: #f40000;
+  font-size: 15px;
+}
+
+.spanMensaje {
+  font-family: 'Trebuchet MS', 'Helvetica', 'Jamrul', 'sans-serif';
+  color: #f40000;
+  font-size: 15px;
+}
+
+.modalContent {
+  width: 600px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.boton_rojo {
+  background-color: #f40000;
+  cursor: pointer;
+}
+
+.boton_blanco {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  cursor: pointer;
+}

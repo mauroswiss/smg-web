@@ -1,0 +1,22 @@
+.container {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  height: 20px;
+  width: 300px;
+}
+
+.container span {
+  color: #f40000;
+  height: 10px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.boton_rojo {
+  background-color: #f40000;
+  cursor: pointer;
+  height: 42px;
+  width: 143px;
+}

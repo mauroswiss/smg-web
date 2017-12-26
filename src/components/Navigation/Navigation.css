@@ -1,0 +1,54 @@
+@import '../variables.css';
+
+.root {
+  float: right;
+  position: relative;
+  z-index: 2;
+  margin-right: 15px;
+  min-height: 70px;
+}
+
+.root ul {
+  margin-bottom: 10px;
+}
+
+.root ul li {
+  list-style: none;
+  display: inline;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none !important;
+  font-size: 11px;
+  padding: 25px 15px 10px;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.link,
+.link:active,
+.link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+  background-color: #eee;
+  color: #f40000;
+}
+
+.spacer {
+  color: black;
+  font-size: 0.8em;
+  margin: 0 1px;
+}
+
+.spacer:hover {
+  color: #f40000;
+}

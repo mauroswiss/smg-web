@@ -1,0 +1,19 @@
+.btn_buscar:hover {
+  cursor: pointer;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+
+.btn_buscar {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.divFilter {
+  padding-top: 25px;
+}
+
+.div_buscar {
+  padding-left: 0;
+}

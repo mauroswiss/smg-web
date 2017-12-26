@@ -1,0 +1,67 @@
+.list_title {
+  border-top: solid 2px #f40000;
+  background-color: #f3f3f3;
+  font-size: 11px;
+  color: #777;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.list_header {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.list_item {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 2px #ccc;
+  box-shadow: 0 2px 2px #ccc;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777;
+}
+
+.icono_acciones:hover {
+  cursor: pointer;
+}
+
+.icono_acciones {
+  font-size: 22px;
+  padding-right: 15px;
+}
+
+.icono_remove {
+  color: #f40000;
+  font-size: 25px;
+}
+
+.turnoDisabled {
+  background-color: #f0f0f0;
+}
+
+.turnoEnabled {
+  background-color: #fff;
+}
+
+.divAcciones {
+  padding-left: 45px;
+  padding-right: 0;
+}
+
+.divColFecha {
+  padding-left: 1px;
+  padding-right: 9px;
+}

@@ -1,0 +1,50 @@
+@import '../variables.css';
+
+.root {
+  background-color: #383838;
+  height: 98px;
+  width: 100%;
+  color: #999;
+  left: 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: var(--max-content-width);
+}
+
+.text {
+  padding-top: 20px;
+}
+
+.text li {
+  line-height: 15px;
+  font-weight: 300;
+}
+
+.link {
+  color: #999;
+  padding: 0 5px;
+}
+
+.link:hover,
+.link:active,
+.link:visited {
+  color: #999;
+}
+
+.logos {
+  padding-top: 8%;
+}
+
+.logos img {
+  width: 102px;
+  height: 50px;
+}
+
+.logos img:nth-child(1) {
+  padding-right: 18px;
+}

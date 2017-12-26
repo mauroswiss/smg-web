@@ -1,0 +1,65 @@
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+}
+
+.page_header {
+  padding-bottom: 9px;
+  margin: 60px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+h1 {
+  font-family: inherit;
+  font-weight: 500;
+}
+
+h1 .copete {
+  font-weight: lighter;
+}
+
+.breadcrumb span {
+  background-color: #999;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
+.breadcrumb span.breadcrumb_red {
+  background-color: #f40000;
+}
+
+.text_red {
+  color: red;
+}
+
+.title_input {
+  font-size: 9px;
+}
+
+.title_int {
+  text-align: right;
+}
+
+.input_text {
+  cursor: not-allowed;
+  font-family: inherit;
+}
+
+.input_label {
+  text-align: right;
+  padding-right: 0;
+  padding-top: 8px;
+}

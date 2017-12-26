@@ -1,0 +1,16 @@
+@import '../variables.css';
+
+.root {
+  background: url('./images/socialicons.png');
+  background-position: -75px 0;
+  display: inline-block;
+  width: 33px;
+  height: 35px;
+  outline: none;
+}
+
+.root:hover {
+  background: url('./images/socialicons_h.png');
+  background-position: -75px 0;
+  cursor: pointer;
+}

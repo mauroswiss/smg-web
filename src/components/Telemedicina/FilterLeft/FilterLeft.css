@@ -1,0 +1,21 @@
+.card_text {
+  text-align: center;
+  color: #f40000;
+}
+
+.card_text:hover,
+.card_text:active,
+.card_text:focus {
+  text-decoration: none;
+  color: #f40000;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.input_range {
+  margin: 20px auto;
+  width: 85%;
+}

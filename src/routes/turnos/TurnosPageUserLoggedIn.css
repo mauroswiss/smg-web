@@ -1,0 +1,37 @@
+@import '../../components/variables.css';
+
+.root {
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+}
+
+.h2 {
+  display: block;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.divSeparador {
+  border-right: 1px solid #e70003;
+  height: 280px;
+  margin: 40px 0 20px;
+}
+
+.boton_rojo {
+  background-color: #f40000;
+  padding-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+.divLeyenda {
+  padding-bottom: 20px;
+}

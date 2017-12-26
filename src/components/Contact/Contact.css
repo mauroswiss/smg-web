@@ -1,0 +1,36 @@
+.formulario_opinion {
+  display: block;
+  line-height: 1;
+  position: fixed;
+  min-height: 393px;
+  top: 220px;
+  right: -500px;
+  padding: 30px 20px 15px;
+  width: 500px;
+  background: #f2f2f2;
+  z-index: 20;
+  border: 1px solid #e4e4e4;
+  -webkit-transition: all 0.5s; /* Safari */
+  transition: all 0.5s;
+}
+
+.show {
+  right: -3px;
+}
+
+.hidden {
+  right: -500px;
+}
+
+.handle {
+  background: url(./images/opinion.png) no-repeat;
+  width: 45px;
+  height: 146px;
+  display: block;
+  text-indent: 500px;
+  outline: none;
+  position: absolute;
+  top: 0;
+  left: -45px;
+  padding-top: 10px;
+}

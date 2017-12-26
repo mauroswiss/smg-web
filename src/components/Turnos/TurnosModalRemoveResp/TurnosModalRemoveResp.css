@@ -1,0 +1,8 @@
+.boton_rojo {
+  background-color: #f40000;
+  cursor: pointer;
+}
+
+.modalContent {
+  width: 600px;
+}

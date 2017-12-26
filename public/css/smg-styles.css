@@ -1,0 +1,10 @@
+html,
+body,
+.btn {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tooltip {
+  font-size: 11px;
+  font-family: 'Open Sans', sans-serif;
+}
