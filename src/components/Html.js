@@ -42,9 +42,7 @@ class Html extends React.Component {
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <title>
-            {title}
-          </title>
+          <title>{title}</title>
           <meta name="description" content={description} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <script src="https://code.jquery.com/jquery-3.2.1.js" />
@@ -77,18 +75,19 @@ class Html extends React.Component {
           <link rel="stylesheet" href="/icons/glyphicons.css" />
           <link rel="shortcut icon" href="/favicon.png" />
 
-          {scripts.map(script =>
-            <link key={script} rel="preload" href={script} as="script" />,
-          )}
+          {scripts.map(script => (
+            <link key={script} rel="preload" href={script} as="script" />
+          ))}
 
           <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-          {styles.map(style =>
+          {styles.map(style => (
             <style
               key={style.id}
               id={style.id}
               dangerouslySetInnerHTML={{ __html: style.cssText }}
-            />,
-          )}
+            />
+          ))}
+          <script src="js/newrelic.js" />
         </head>
         <body>
           <div id="app" dangerouslySetInnerHTML={{ __html: children }} />
@@ -96,7 +95,7 @@ class Html extends React.Component {
             dangerouslySetInnerHTML={{ __html: `window.App=${serialize(app)}` }}
           />
           {scripts.map(script => <script key={script} src={script} />)}
-          {config.analytics.googleTrackingId &&
+          {config.analytics.googleTrackingId && (
             <script
               dangerouslySetInnerHTML={{
                 __html:
@@ -104,13 +103,15 @@ class Html extends React.Component {
                   `ga('create','${config.analytics
                     .googleTrackingId}','auto');ga('send','pageview')`,
               }}
-            />}
-          {config.analytics.googleTrackingId &&
+            />
+          )}
+          {config.analytics.googleTrackingId && (
             <script
               src="https://www.google-analytics.com/analytics.js"
               async
               defer
-            />}
+            />
+          )}
         </body>
       </html>
     );

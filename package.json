@@ -6,12 +6,7 @@
     "node": ">=6.5",
     "npm": ">=3.10"
   },
-  "browserslist": [
-    ">1%",
-    "last 4 versions",
-    "Firefox ESR",
-    "not ie < 9"
-  ],
+  "browserslist": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"],
   "dependencies": {
     "apollo-client": "^1.7.0",
     "axios": "^0.16.2",
@@ -36,6 +31,7 @@
     "intl-locales-supported": "^1.0.0",
     "isomorphic-style-loader": "^3.0.0",
     "jsonwebtoken": "^7.4.1",
+    "newrelic": "^2.4.2",
     "node-fetch": "^1.7.1",
     "nodemailer": "^4.3.0",
     "normalize.css": "^7.0.0",
@@ -162,9 +158,7 @@
     ],
     "env": {
       "test": {
-        "plugins": [
-          "rewire"
-        ]
+        "plugins": ["rewire"]
       }
     },
     "ignore": [
@@ -176,18 +170,9 @@
     ]
   },
   "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.{json,graphql}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.{css,less,scss,sss}": [
-      "stylelint --fix",
-      "git add"
-    ]
+    "*.{js,jsx}": ["eslint --fix", "git add"],
+    "*.{json,graphql}": ["prettier --write", "git add"],
+    "*.{css,less,scss,sss}": ["stylelint --fix", "git add"]
   },
   "scripts": {
     "precommit": "lint-staged",

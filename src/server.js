@@ -36,6 +36,8 @@ import { setRuntimeVariable } from './actions/runtime';
 import { setLocale } from './actions/intl';
 import config from './config';
 
+require('newrelic');
+
 const app = express();
 
 // const URL_SERVER = 'https://mobilepre.swissmedical.com.ar';
