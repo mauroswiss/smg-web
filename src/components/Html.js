@@ -87,7 +87,6 @@ class Html extends React.Component {
               dangerouslySetInnerHTML={{ __html: style.cssText }}
             />
           ))}
-          <script src="js/newrelic.js" />
         </head>
         <body>
           <div id="app" dangerouslySetInnerHTML={{ __html: children }} />

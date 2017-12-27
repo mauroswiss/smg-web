@@ -8,11 +8,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['SMGWEB-IBM'],
+  app_name: [process.env.NEWRELIC_APP],
   /**
    * Your New Relic license key.
    */
-  license_key: '00caa311e224765b01ad48e9a5fb23a3057d5ac4',
+  license_key: 'd837a0331673ebe9a169116115219c5d5ed55d09',
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing

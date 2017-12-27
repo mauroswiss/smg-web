@@ -3,7 +3,6 @@
  */
 
 /* eslint consistent-return: 0 */
-
 import path from 'path';
 import Promise from 'bluebird';
 import express from 'express';
